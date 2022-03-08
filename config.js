@@ -58,22 +58,17 @@ var respecConfig =
   //-- NB: in de werkversie uitzetten, want dan pakt Respec de pushdate ---------------
   //publishDate: "2019-10-08",  	    // Format is "YYYY-MM-DD"
   //-- Repositorynaam op GitHub -------------------------------------------------------
-  github: "https://github.com/geonovum/<naam van de repository>",
+  github: "https://github.com/Geonovum/dso-validatiematrix",
   //-- Repositorynaam/issues op GitHub ------------------------------------------------
-  issueBase: "https://github.com/geonovum/<naam van de repository>/issues",
+  issueBase: "https://github.com/Geonovum/dso-validatiematrix/issues",
   //-- edDraftURI: de URI van de werkversie van het document
-  edDraftURI: "https://github/geonovum/<naam van de repository>",
+  //edDraftURI: "https://github/geonovum/<naam van de repository>",
   //-- de namen van de Editor(s) ------------------------------------------------------
   //-- vul in: per Editor: name:, company:, companyURL: -------------------------------
   editors: 
  [
     {
-      name:       "Naam Editor-1",
-      company:    "Geonovum",
-      companyURL: "https://www.geonovum.nl"
-    }, 
-    {
-      name:       "Naam Editor-n",
+      name:       "Wilko Quak",
       company:    "Geonovum",
       companyURL: "https://www.geonovum.nl"
     }, 
@@ -82,21 +77,17 @@ var respecConfig =
   //-- vul in: per Author: name:, company:, companyURL: -------------------------------
   authors: 
   [
-    {
-      name:       "Naam Auteur-1",
-      company:    "Geonovum",
-      companyURL: "https://www.geonovum.nl"
-    }, 
-    {
-      name:       "Naam Auteur-2",
-      company:    "Geonovum",
-      companyURL: "https://www.geonovum.nl"
-    }, 
+   // {
+   //   name:       "Wilko Quak",
+   //   company:    "Geonovum",
+   //   companyURL: "https://www.geonovum.nl"
+   // }, 
+ 
   ],
   //-- shortName is verplicht! (komt in de URL: kies logische naam) --------------------
-  shortName: "et",  	              // Wordt gebruikt in de document URL
+  shortName: "validatiematrix",  	              // Wordt gebruikt in de document URL
   //-- pubDomain is verplicht! (komt in de URL: Activeer 1 van de volgende) ------------
-  pubDomain: "et", 	              // Energie transitie
+  pubDomain: "ow", 	              // Energie transitie
   //pubDomain: "mim", 	            // Metamodel Informatie Modellering
   //pubDomain: "bor", 	            // Beheer Openbare Ruimte
   //pubDomain: "bro", 	            // Basisregistratie Ondergrond
@@ -119,38 +110,6 @@ var respecConfig =
   //-- NB: kijk eesrt naar de beschikbare www.specref.org voor verwijziging 
   localBiblio: 
   {
-    "PUB-1":
-      {
-        title:      "Titel van Publicatie-1",
-        href:       "https://www.geonovum.nl",
-        status:     "V1.0.1",
-        publisher:  "Publisher-1",
-        company:    "Companynaam",
-    },
-    "PUB-2":
-      {
-        title:      "Titel van Publicatie-2",
-        href:       "https://www.geonovum.nl",
-        status:     "V1.0.1",
-        publisher:  "Publisher-2",
-        company:    "Companynaam",
-    },
-    "PUB-3":
-      {
-        title:      "Titel van Publicatie-3",
-        href:       "https://www.geonovum.nl",
-        status:     "V1.0.1",
-        publisher:  "Publisher-3",
-        company:    "Companynaam",
-    },
-    "PUB-4":
-      {
-        title:      "Titel van Publicatie-4",
-        href:       "https://www.geonovum.nl",
-        status:     "V1.0.1",
-        publisher:  "Publisher-4",
-        company:    "Companynaam",
-    },
   },
   postProcess:[custGHPG],   //-- Optioneel voor een multi document repository
 
@@ -161,7 +120,7 @@ var respecConfig =
 
   //-- Optionele parameters:
   //emailComments: "mim@geonovum.nl",         // reactie mailadres, alleen bij CV!
-  //subtitle: "iets",                         // Subtitel van het document
+  subtitle: "Validatie- en conformiteitsregels voor registratie en publicatie van omgevingsdocumenten DSO-LV",                         // Subtitel van het document
   //maxTocLevel: 3,                           // Aantal niveau's ToC, default is 0
   //-- LOGO: Hier kan je een ander logo opgeven indien nodig
   //logos: [{
