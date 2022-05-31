@@ -390,7 +390,7 @@
 |OZON0348|Een regel voor iedereen mag niet twee keer verwijzen naar de zelfde activiteitlocatieaanduiding.|
 |OZON0349|Als een kaartlaag verwijst naar een activiteitlocatieaanduiding, omgevingsnorm, omgevingswaarde of gebiedsaanwijzing, dan moet deze bestaan.|
 |OZON0350|Wanneer een object wordt beëindigd, dan mag er geen ander object meer naar verwijzen.|
-|OZON0351|Het beëindigen/wijzingen van een object mag niet leiden tot het verwezen van een ander object.|
+|OZON0351|Het beëindigen/wijzigen van een object mag niet leiden tot het verwezen van een ander object.|
 |OZON0369|Een ActiviteitLocatieaanduiding mag niet twee keer verwijzen naar dezelfde Locatie.|
 |OZON0370|Een Geometrie mag niet gebruikt worden in twee of meer OW-Locaties. (Mag altijd maar gebruikt worden in één OW-Locatie.)|
 |OZON0371|Een activiteit mag niet twee keer verwijzen naar dezelfde gerelateerde activiteit|
@@ -426,6 +426,11 @@
 |OZON4003|Als een OwObject gewijzigd wordt, moet de inhoud van dit object veranderen ten opzichte van wat bij Ozon bekend is.|
 |OZON4004|Als de Geometrie van een Locatie gewijzigd wordt, dan dient de Locatie opnieuw aangeboden te worden.|
 |OZON4005|Als een OwObject gewijzigd wordt, moet het type van dit object hetzelfde zijn als dat van de vorige versie|
+|OZON4006|Een levering mag niet meerdere regelingen bevatten met het zelfde regelingId en doel.                                     |
+|OZON4007|Bij een levering met meerdere regelingen, mag ieder owBestand maar in één regeling gebruikt worden.                                                                                                          |
+|OZON4008|Bij een levering met meerdere regelingen, mag ieder owObject maar in één regeling gebruikt worden.                                                |
+|OZON4009|Bij een levering met meerdere regelingen, mag iedere geo maar in één regeling gebruikt worden.                  |
+|OZON4010|Intrekken-vervangen (scenario 0) mag niet worden gebruikt in combinatie met meerdere regelingen.|
 |RTRG0016|Als een activiteit van een gemeente verwijst naar een bovenliggende activiteit niet van een gemeente, dan moet deze verwijzen naar de activiteit: 'activiteit in omgevingsplan'|
 |RTRG0017|Als een activiteit van een provincie verwijst naar een bovenliggende activiteit niet van een provincie, dan moet deze verwijzen naar de activiteit: 'activiteit in omgevingsverordening'|
 |RTRG0018|Als een activiteit van een waterschap verwijst naar een bovenliggende activiteit niet van een waterschap, dan moet deze verwijzen naar de activiteit: 'activiteit in waterschapsverordening'|
