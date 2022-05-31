@@ -7,4 +7,8 @@ Dit document is aan verandering onderhevig. Het versiebeheer van het document ge
 | Validatieregel | Wijziging                  | 
 |----------------|----------------------------|
 | document       | Matrix omgezet van spreadsheet naar Respec          |
-                           
+| OZON4006       | Regel toegevoegd n.a.v WELT-198 |
+| OZON4007       | Regel toegevoegd n.a.v WELT-198 |
+| OZON4008       | Regel toegevoegd n.a.v WELT-198 |
+| OZON4009       | Regel toegevoegd n.a.v WELT-198 |
+| OZON4010       | Regel toegevoegd n.a.v WELT-198 |
