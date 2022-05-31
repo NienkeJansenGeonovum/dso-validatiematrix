@@ -1,4 +1,6 @@
-#!/usr/bin/python
+#!/usr/bin/python3
+#
+# Auteur: w.quak@geonovum.nl
 
 from datetime import datetime
 import openpyxl

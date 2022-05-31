@@ -13,4 +13,3 @@ succesvol te worden geregistreerd, gepubliceerd en ontsloten in het DSO-LV. Deze
 notitie voorziet in deze behoefte en geeft een geclassificeerde beschrijving van een
 geharmoniseerd overzicht van alle validatie- en conformiteitsregels die in de keten
 van 'Plan tot Publicatie' worden uitgevoerd.
-
