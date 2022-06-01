@@ -1,4 +1,4 @@
-## Inleiding
+# Inleiding
 Voor de borging van de digitale registratie, publicatie en ontsluiting van omgevingsdocumenten (zijnde besluiten en regelingen conform de Omgevingswet) in de landelijke voorziening DSO dienen deze omgevingsdocumenten te voldoen aan diverse
 technische en functionele eisen.
 De validatie- en conformiteitsregels die hiervoor zijn opgesteld vinden hun oorsprong

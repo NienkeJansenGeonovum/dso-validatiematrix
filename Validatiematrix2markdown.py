@@ -7,7 +7,7 @@ import openpyxl
 import sys
 
 
-print("## De validatiematrix")
+print("# De validatiematrix")
 print("")
 print("| id | omschrijving|");
 print("|:---|:------------|");

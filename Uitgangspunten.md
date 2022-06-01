@@ -1,4 +1,4 @@
-## Uitgangspunten
+# Uitgangspunten
 
 Uitgangspunten bij het samenstellen van de validatiematrix zijn de volgende:
   - De regels in dit document zijn altijd herleidbaar uit een standaard of gedocumenteerde afspraak binnen de DSO keten. Dit document is zelf dus geen bron van nieuwe regels

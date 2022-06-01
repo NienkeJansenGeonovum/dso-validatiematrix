@@ -1,4 +1,4 @@
-## Samenvatting
+# Samenvatting
 
 Voor de borging van de digitale registratie, publicatie en ontsluiting van omgevings-
 documenten (zijnde besluiten en regelingen conform de Omgevingswet) in de lande-
