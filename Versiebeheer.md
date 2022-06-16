@@ -2,6 +2,8 @@
 
 In de versiehistorie wordt met WELT-xx verwezen naar de Wensen en Eisen Lijst voor de TPOD-standaard. Deze lijst bevat meldingen en wijzigingsverzoeken die door gebruikers van de standaard zijn ingediend. De ingediende meldingen zijn te vinden via [https://www.geonovum.nl/geo-standaarden/omgevingswet/meldingen](https://www.geonovum.nl/geo-standaarden/omgevingswet/meldingen).
 
+De validatiematrix is ook beschikbaar in de vorm van een spreadsheet deze is te vinden via: [https://github.com/Geonovum/dso-validatiematrix/blob/main/Validatiematrix.xlsx](https://github.com/Geonovum/dso-validatiematrix/blob/main/Validatiematrix.xlsx)
+
 ## Wijzigingen in versie 1.5
 
 | Validatieregel | Wijziging                  | 
