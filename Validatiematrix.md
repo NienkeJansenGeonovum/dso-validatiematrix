@@ -443,7 +443,7 @@
 |STOP0006|Blokkerend|Een kop MOET content bevatten|
 |STOP0007|Blokkerend|Een referentie naar een noot MOET in de context van een tabel staan|
 |STOP0008|Blokkerend|Een referentie naar een noot MOET verwijzen naar een noot in dezelfde tabel|
-|STOP0009|waarschuwing|Een tabel MAG NIET in een lijst worden opgenomen|
+|STOP0009|Waarschuwing|Een tabel MAG NIET in een lijst worden opgenomen|
 |STOP0010|Blokkerend|De waarde van IntRef/@ref MOET voorkomen als identifier (@eId) van een element binnen:OFWEL de tekst van dezelfde expression als de IntRef OFWEL binnen de tekst van hetzelfde component als de IntRef.|
 |STOP0011|Blokkerend|Een IntIoRef referentie MOET verwijzen naar @wId van ExtIoRef binnen hetzelfde bestand|
 |STOP0012|Blokkerend|De in de ExtIoRef weergegeven join-identifier MOET gelijk zijn aan de referentie|
@@ -472,8 +472,8 @@
 |STOP0040|Blokkerend|Een element RegelingMutatie binnen een WijzigArtikel mag alleen voorkomen in een BesluitKlassiek|
 |STOP0043|Blokkerend|Een onderdeel binnen een @eId MAG NIET eindigen met een punt '.'|
 |STOP0044|Blokkerend|Een onderdeel binnen een @wId MAG NIET eindigen met een '.'|
-|STOP0045|waarschuwing|Een (inline) Illustratie MAG GEEN attribuut @schaal hebben.|
-|STOP0046|waarschuwing|Een (inline) Illustratie MAG GEEN attribuut @kleur hebben.|
+|STOP0045|Waarschuwing|Een (inline) Illustratie MAG GEEN attribuut @schaal hebben.|
+|STOP0046|Waarschuwing|Een (inline) Illustratie MAG GEEN attribuut @kleur hebben.|
 |STOP0047|Blokkerend|Een element Wat MAG GEEN VerwijderdeTekst of NieuweTekst bevatten.|
 |STOP0048|Blokkerend|De wijzigacties nieuweContainer" en "verwijderContainer" MOGEN binnen een mutatieeenheid ALLEEN op de container Groep worden toegepast. Toepassing op andere containers (zoals Lijst; table of Citaat) kan potentieel leiden tot invalide XML of impliciet informatieverlies."|
 |STOP0050|Blokkerend|Een externe referentie MOET de juiste notatie gebruiken|
@@ -645,8 +645,8 @@
 |STOP3077|Blokkerend|In een GIO zonder was-ID wordt elk onderdeel van de GIO als gewijzigd beschouwd.|
 |STOP3078|Blokkerend|ALS een GIO een wasID heeft; dan MOET de wasID een voorgaande expressie zijn van hetzelfde work.|
 |STOP3079|Blokkerend|Of een GIO opnieuw(zonder was-ID) of gewijzigd (met was-ID) wordt vastgesteld; kan gevolgen hebben voor de mogelijkheid om beroep of bezwaar aan te tekenen tegen de vaststelling van de GIO.|
-|STOP3100|waarschuwing|De FeatureTypeStyle MAG GEEN se:Name bevatten.|
-|STOP3101|waarschuwing|De FeatureTypeStyle MAG GEEN se:Description bevatten.|
+|STOP3100|Waarschuwing|De FeatureTypeStyle MAG GEEN se:Name bevatten.|
+|STOP3101|Waarschuwing|De FeatureTypeStyle MAG GEEN se:Description bevatten.|
 |STOP3102|Blokkerend|De waarde voor FeatureTypeName moet de waarde Locatie (met eventueel de correcte namespace-prefix) hebben.|
 |STOP3103|Blokkerend|FeatureTypeStyle:SemanticTypeIdentifier MOET zijn geo:geometrie; geo:groepID; geo:kwalitatieveNormwaarde of geo:kwantitatieveNormwaarde (evt. met een andere namespace prefix voor https://standaarden.overheid.nl/stop/imop/geo/).|
 |STOP3114|Blokkerend|Als Rule een Filter bevat dan MOET de SemanticTypeIdentifier zijn geo:groepID;geo:kwalitatieveNormwaarde of geo:kwantitatieveNormwaarde(evt. met een andere namespace prefix voor https://standaarden.overheid.nl/stop/imop/geo/).|
