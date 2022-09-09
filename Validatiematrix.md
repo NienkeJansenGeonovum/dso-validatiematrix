@@ -720,9 +720,9 @@
 |TPOD1830|Waarschuwing|Binnen het object ‘Gebiedsaanwijzing’ is de waarde ‘functie’ van attribuut ‘type’ (datatype TypeGebiedsaanwijzing) niet toegestaan. (voor AMvB/MR)|
 |TPOD1840|Waarschuwing|Binnen het object ‘Gebiedsaanwijzing’ is de waarde ‘beperkingengebied’ van attribuut ‘type’ (datatype TypeGebiedsaanwijzing) niet toegestaan. (voor AMvB/MR) |
 |TPOD1890|Blokkerend|De identificatie van het OwObject moet de naam van het OwObject zelf bevatten.|
-|TPOD1960|Blokkerend|Iedere verwijzing naar een gmlObject vanuit een Lijn moet een lijn-geometrie zijn.|
-|TPOD1970|Blokkerend|Iedere verwijzing naar een gmlObject vanuit een Punt moet een punt-geometrie zijn.|
-|TPOD1980|Blokkerend|Iedere verwijzing naar een gmlObject vanuit een Gebied moet een gebied-geometrie zijn.|
+|TPOD1960|Blokkerend|Iedere verwijzing naar een gmlObject vanuit een Lijn moet verwijzen naar een object van type GM_LineString of GM_MultiLinestring  GM_MultiLinestring.|
+|TPOD1970|Blokkerend|Iedere verwijzing naar een gmlObject vanuit een Punt moet verwijzen naar een object van type GM_Point of GM_MultiPoint.|
+|TPOD1980|Blokkerend|Iedere verwijzing naar een gmlObject vanuit een Gebied moet verwijzen naar een object van type GM_Surface of GM_MultiSurface.|
 |TPOD1990|Waarschuwing|Ieder OwObject, behalve Activiteit heeft minstens een OwObject dat ernaar verwijst.|
 |TPOD2000|Blokkerend|het wId van de Regeltekst in OW moet verwijzen naar een bestaande wId van een Artikel of Lid in OP|
 |TPOD2040|Blokkerend|Het wId van de Divisie of Divisietekst in OW moet verwijzen naar een bestaande wId van een Divisie in OP|

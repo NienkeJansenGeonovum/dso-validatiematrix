@@ -26,11 +26,11 @@ De validatiematrix is eerder beschikbaar gesteld in de vorm van een spreadsheet.
 
 ## Wijzigingen in versie 1.5
 
-| Validatieregel | Wijziging                  | 
-|----------------|----------------------------|
-| document       | Matrix omgezet van spreadsheet naar Respec          |
-| OZON4006       | Regel toegevoegd n.a.v WELT-198 |
-| OZON4007       | Regel toegevoegd n.a.v WELT-198 |
-| OZON4008       | Regel toegevoegd n.a.v WELT-198 |
-| OZON4009       | Regel toegevoegd n.a.v WELT-198 |
-| OZON4010       | Regel toegevoegd n.a.v WELT-198 |
+
+| TPOD1960,TPOD1970,TPOD       | 
+
+| aanleiding | Omschrijving |
+|------------|--------------|
+|migratie    | Validatiematrix omgezet van spreadsheet naar document |
+|WELT-198    | OZON4006,OZON4007,OZON4008,OZON4009,OZON4010 toegevoegd |
+|WELT-191    | TPOD1960,TPOD1970,TPOD1980 aangescherpt |
