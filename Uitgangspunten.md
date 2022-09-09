@@ -17,7 +17,7 @@ Uitgangspunten bij het samenstellen van de validatiematrix zijn de volgende:
   | kolom        | omschrijving |
   |--------------|--------------|
   | id           | Unieke identificatie van de validatieregel die gebruikt kan worden in communicatie over de regel |
-  | ernst        | Hierin staat de waarde 'Blokkerend' of 'Waarschuwing'. Blokkerende regels leiden tot afkeuring van het document in de keten. Een waarschuwing resulteert niet tot afkeuring van het document maar levert een melding bij de indiener van het document. |
+  | ernst        | 'Blokkerend' of 'Waarschuwing'. Blokkerende regels leiden tot afkeuring van het document in de keten. Een waarschuwing resulteert niet tot afkeuring van het document maar levert een melding bij de indiener van het document. |
   | omschrijving | Eenduidige omschrijving van de validatieregel. |
 
 

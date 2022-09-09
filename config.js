@@ -77,11 +77,11 @@ var respecConfig =
   //-- vul in: per Author: name:, company:, companyURL: -------------------------------
   authors: 
   [
-   // {
-   //   name:       "Wilko Quak",
-   //   company:    "Geonovum",
-   //   companyURL: "https://www.geonovum.nl"
-   // }, 
+    {
+      name:       "Team TPOD",
+      company:    "Geonovum",
+      companyURL: "https://www.geonovum.nl"
+    }, 
  
   ],
   //-- shortName is verplicht! (komt in de URL: kies logische naam) --------------------
@@ -123,12 +123,12 @@ var respecConfig =
   subtitle: "Validatie- en conformiteitsregels voor registratie en publicatie van omgevingsdocumenten DSO-LV",                         // Subtitel van het document
   //maxTocLevel: 3,                           // Aantal niveau's ToC, default is 0
   //-- LOGO: Hier kan je een ander logo opgeven indien nodig
-  //logos: [{
-  //  src: "https://tools.geostandaarden.nl/respec/style/logos/OmgevingswetLogo.svg",
-  //  alt: "Standaarden Omgevingswet",
-  //  id: "TopLogo",
-  //  height: 67,
-  //  width: 300,
-  //  url: "https://www.geonovum.nl/geo-standaarden/omgevingswet/STOPTPOD"
-  // }],
+  logos: [{
+    src: "https://tools.geostandaarden.nl/respec/style/logos/OmgevingswetLogo.svg",
+    alt: "Standaarden Omgevingswet",
+    id: "TopLogo",
+    height: 67,
+    width: 300,
+    url: "https://www.geonovum.nl/geo-standaarden/omgevingswet/STOPTPOD"
+  }],
 };

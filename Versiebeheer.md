@@ -26,9 +26,6 @@ De validatiematrix is eerder beschikbaar gesteld in de vorm van een spreadsheet.
 
 ## Wijzigingen in versie 1.5
 
-
-| TPOD1960,TPOD1970,TPOD       | 
-
 | aanleiding | Omschrijving |
 |------------|--------------|
 |migratie    | Validatiematrix omgezet van spreadsheet naar document |
