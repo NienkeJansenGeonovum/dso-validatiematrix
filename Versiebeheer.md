@@ -31,3 +31,4 @@ De validatiematrix is eerder beschikbaar gesteld in de vorm van een spreadsheet.
 |migratie    | Validatiematrix omgezet van spreadsheet naar document |
 |WELT-198    | OZON4006,OZON4007,OZON4008,OZON4009,OZON4010 toegevoegd |
 |WELT-191    | TPOD1960,TPOD1970,TPOD1980 aangescherpt |
+|WELT-207    | Nieuwe set validaties ontvangen van de LVBB |
