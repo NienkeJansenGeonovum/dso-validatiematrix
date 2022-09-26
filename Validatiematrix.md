@@ -406,8 +406,8 @@
 |OZON0351|Blokkerend|Het beëindigen/wijzigen van een object mag niet leiden tot het verwezen van een ander object.|
 |OZON0369|Blokkerend|Een ActiviteitLocatieaanduiding mag niet twee keer verwijzen naar dezelfde Locatie.|
 |OZON0370|Blokkerend|Een Geometrie mag niet gebruikt worden in twee of meer OW-Locaties. (Mag altijd maar gebruikt worden in één OW-Locatie.)|
-|OZON0371|Blokkerend|Een activiteit mag niet twee keer verwijzen naar dezelfde gerelateerde activiteit|
-|OZON0372|Blokkerend|Een gebiedengroep mag niet twee keer verwijzen naar hetzelfde gebied|
+|OZON0371|Blokkerend|Een activiteit mag niet twee keer verwijzen naar dezelfde gerelateerde activiteit.|
+|OZON0372|Blokkerend|Een gebiedengroep mag niet twee keer verwijzen naar hetzelfde gebied.|
 |OZON0373|Blokkerend|Een lijnengroep mag niet twee keer verwijzen naar dezelfde lijn.|
 |OZON0374|Blokkerend|Een puntengroep mag niet twee keer verwijzen naar dezelfde punt.   |
 |OZON1019|Blokkerend|Het bevoegd gezag moet het juiste format hebben: het moet eindigen met het type bevoegd gezag (ministerie, provincie, gemeente, waterschap), een /, en de organisatiecode, bijvoorbeeld ‘/gemeente/gm0037’. |
@@ -420,7 +420,7 @@
 |OZON1029|Blokkerend|Een nieuwe toestand moet aangeleverd worden met een regelingversie.|
 |OZON1031|Blokkerend|Als een RegelingVersie verwijst naar een afbeelding dan moet deze aanwezig zijn in de levering|
 |OZON1032|Blokkerend|Een Tijdelijk Deel moet verwijzen naar een bestaande RegelingVersie in de database|
-|OZON1033|Blokkerend|Intrekken/Vervangen van een RegelingVersie is niet toegestaan wanneer er een Tijdelijk Deel naar verwijst|
+|OZON1033|Blokkerend|Intrekken/Vervangen van een RegelingVersie is niet toegestaan wanneer er een Tijdelijk Deel naar verwijst.|
 |OZON1034|Blokkerend|Een ontwerp Ow-object mag niet bestaan in Ozon.|
 |OZON1036|Blokkerend|Een regeling die een tijdelijk deel is, mag zelf geen tijdelijk deel hebben.|
 |OZON1038|Blokkerend|Een ontwerpregeling kan niet geladen worden als er al een andere ontwerpregeling bestaat met hetzelfde expressionId of dezelfde ontwerpbesluitIdentificatie.|
@@ -430,15 +430,15 @@
 |OZON2040|Blokkerend|(TPOD2040) het id van Divisie of Divisietekst in OW moet verwijzen naar een bestaande id van een Divisie of Divisietekst in OP|
 |OZON2060|Blokkerend|(TPOD2060) Een OW-annotatie mag alleen worden toegevoegd op het niveau van een Artikel indien het Artikel geen leden heeft|
 |OZON2140|Blokkerend|(TPOD2140) Het WorkIDRegeling van het manifest-ow moet verwijzen naar een bestaande data:FRBRWork van een Regeling in OP|
-|OZON2150|Blokkerend|(TPOD2150) Het DoelID van het manifest-ow moet verwijzen naar een bestaand doel dat aanwezig is in de bijbehorende Regeling in OP|
-|OZON2210|Blokkerend|(TPOD2210) De combinatie van Doel en Regeling uit het manifest-OW moet ook als combinatie bestaan in OP|
+|OZON2150|Blokkerend|(TPOD2150) Het DoelID van het manifest-ow moet verwijzen naar een bestaand doel dat aanwezig is in de bijbehorende Regeling in OP.|
+|OZON2210|Blokkerend|(TPOD2210) De combinatie van Doel en Regeling uit het manifest-OW moet ook als combinatie bestaan in OP.|
 |OZON3000|Blokkerend|Er is onvoldoende informatie gevonden in de aanlevering om een object te kunnen vormen (volgens CIMOW). |
 |OZON4000|Blokkerend|Opeenvolgende versies van objecten moeten opeenvolgende tijdsparameters hebben.|
 |OZON4001|Blokkerend|Als een OwObject beeindigd wordt (status=B), moet deze bij Ozon bekend zijn.|
 |OZON4002|Blokkerend|Als een OwObject beeindigd wordt, moet de inhoud van dit object overeenkomen met wat bij Ozon bekend is.|
 |OZON4003|Blokkerend|Als een OwObject gewijzigd wordt, moet de inhoud van dit object veranderen ten opzichte van wat bij Ozon bekend is.|
 |OZON4004|Blokkerend|Als de Geometrie van een Locatie gewijzigd wordt, dan dient de Locatie opnieuw aangeboden te worden.|
-|OZON4005|Blokkerend|Als een OwObject gewijzigd wordt, moet het type van dit object hetzelfde zijn als dat van de vorige versie|
+|OZON4005|Blokkerend|Als een OwObject gewijzigd wordt, moet het type van dit object hetzelfde zijn als dat van de vorige versie.|
 |OZON4006|None|Een levering mag niet meerdere regelingen bevatten met het zelfde regelingId en doel.                                     |
 |OZON4007|None|Bij een levering met meerdere regelingen, mag ieder owBestand maar in één regeling gebruikt worden.                                                                                                          |
 |OZON4008|None|Bij een levering met meerdere regelingen, mag ieder owObject maar in één regeling gebruikt worden.                                                |
@@ -447,64 +447,64 @@
 |RTRG0016|Blokkerend|Als een activiteit van een gemeente verwijst naar een bovenliggende activiteit niet van een gemeente, dan moet deze verwijzen naar de activiteit: 'activiteit in omgevingsplan'|
 |RTRG0017|Blokkerend|Als een activiteit van een provincie verwijst naar een bovenliggende activiteit niet van een provincie, dan moet deze verwijzen naar de activiteit: 'activiteit in omgevingsverordening'|
 |RTRG0018|Blokkerend|Als een activiteit van een waterschap verwijst naar een bovenliggende activiteit niet van een waterschap, dan moet deze verwijzen naar de activiteit: 'activiteit in waterschapsverordening'|
-|RTRG0019|Blokkerend|Maximaal één activiteit van een gemeente mag verwijzen naar een bovenliggende activiteit niet van een gemeente|
-|RTRG0020|Blokkerend|Maximaal één activiteit van een provincie mag verwijzen naar een bovenliggende activiteit niet van een provincie|
-|RTRG0021|Blokkerend|Maximaal één activiteit van een waterschap mag verwijzen naar een bovenliggende activiteit niet van een waterschap|
-|STOP0001|Blokkerend|Een Lijst van het type 'ongemarkeerd' MAG GEEN lijst-items met nummering of opsommingstekens hebben|
-|STOP0002|Blokkerend|Een Lijst van het type 'expliciet' MOET lijst-items hebben met nummering of opsommingstekens|
-|STOP0005|Blokkerend|Een alinea MOET content bevatten|
-|STOP0006|Blokkerend|Een kop MOET content bevatten|
-|STOP0007|Blokkerend|Een referentie naar een noot MOET in de context van een tabel staan|
-|STOP0008|Blokkerend|Een referentie naar een noot MOET verwijzen naar een noot in dezelfde tabel|
-|STOP0009|Waarschuwing|Een lijst MAG GEEN geen tabel bevatten|
+|RTRG0019|Blokkerend|Maximaal één activiteit van een gemeente mag verwijzen naar een bovenliggende activiteit niet van een gemeente.|
+|RTRG0020|Blokkerend|Maximaal één activiteit van een provincie mag verwijzen naar een bovenliggende activiteit niet van een provincie.|
+|RTRG0021|Blokkerend|Maximaal één activiteit van een waterschap mag verwijzen naar een bovenliggende activiteit niet van een waterschap.|
+|STOP0001|Blokkerend|Een Lijst van het type 'ongemarkeerd' MAG GEEN lijst-items met nummering of opsommingstekens hebben.|
+|STOP0002|Blokkerend|Een Lijst van het type 'expliciet' MOET lijst-items hebben met nummering of opsommingstekens.|
+|STOP0005|Blokkerend|Een alinea MOET content bevatten.|
+|STOP0006|Blokkerend|Een kop MOET content bevatten.|
+|STOP0007|Blokkerend|Een referentie naar een noot MOET in de context van een tabel staan.|
+|STOP0008|Blokkerend|Een referentie naar een noot MOET verwijzen naar een noot in dezelfde tabel.|
+|STOP0009|Waarschuwing|Een lijst MAG GEEN geen tabel bevatten.|
 |STOP0010|Blokkerend|De waarde van IntRef/@ref MOET voorkomen als identifier (@eId) van een element binnen:OFWEL de tekst van dezelfde expression als de IntRef OFWEL binnen de tekst van hetzelfde component als de IntRef.|
-|STOP0011|Blokkerend|Een IntIoRef referentie MOET verwijzen naar @wId van ExtIoRef binnen hetzelfde bestand|
-|STOP0012|Blokkerend|De in de ExtIoRef weergegeven join-identifier MOET gelijk zijn aan de referentie|
-|STOP0013|Blokkerend|Een @eId MAG NIET eindigen met een punt '.'|
-|STOP0014|Blokkerend|Een @wId MAG NIET eindigen met een '.'|
-|STOP0015|Blokkerend|Een RegelingTijdelijkdeel MAG GEEN WijzigArtikel hebben|
-|STOP0016|Blokkerend|Een RegelingCompact MAG GEEN WijzigArtikel hebben|
-|STOP0017|Blokkerend|Een tekstuele mutatie ten behoeve van renvooi MAG NIET buiten een Regeling- of BesluitMutatie voorkomen|
-|STOP0018|Blokkerend|Een structuurwijziging ten behoeve van renvooi MAG NIET buiten een Regeling- of BesluitMutatie voorkomen|
+|STOP0011|Blokkerend|Een IntIoRef referentie MOET verwijzen naar @wId van ExtIoRef binnen hetzelfde bestand.|
+|STOP0012|Blokkerend|De in de ExtIoRef weergegeven join-identifier MOET gelijk zijn aan de referentie.|
+|STOP0013|Blokkerend|Een @eId MAG NIET eindigen met een punt '.'.|
+|STOP0014|Blokkerend|Een @wId MAG NIET eindigen met een '.'.|
+|STOP0015|Blokkerend|Een RegelingTijdelijkdeel MAG GEEN WijzigArtikel hebben.|
+|STOP0016|Blokkerend|Een RegelingCompact MAG GEEN WijzigArtikel hebben.|
+|STOP0017|Blokkerend|Een tekstuele mutatie ten behoeve van renvooi MAG NIET buiten een Regeling- of BesluitMutatie voorkomen.|
+|STOP0018|Blokkerend|Een structuurwijziging ten behoeve van renvooi MAG NIET buiten een Regeling- of BesluitMutatie voorkomen.|
 |STOP0020|Blokkerend|Een eId binnen een 'main' AKN-component MOET uniek zijn.|
 |STOP0021|Blokkerend|Een wId binnen een 'main' AKN-component MOET uniek zijn.|
-|STOP0022|Blokkerend|Een eId MOET voldoen aan de AKN-naamgevingsconventie|
+|STOP0022|Blokkerend|Een eId MOET voldoen aan de AKN-naamgevingsconventie.|
 |STOP0023|Blokkerend|Een wId MOET voldoen aan de AKN-naamgevingsconventie|
-|STOP0024|Blokkerend|Een initiële regeling MOET een attribuut @componentnaam hebben met correcte naamgeving|
-|STOP0025|Blokkerend|Een initiële regeling MOET een attribuut @wordt hebben met de AKN-identificatie|
-|STOP0026|Blokkerend|Een componentnaam binnen een besluit MOET uniek zijn|
-|STOP0027|Blokkerend|Een eId binnen een AKN-component MOET uniek zijn|
-|STOP0028|Blokkerend|Een wId binnen een AKN-component MOET uniek zijn|
-|STOP0029|Waarschuwing|Een tabel MOET ten minste twee kolommen hebben|
-|STOP0032|Blokkerend|Bij horizontale overspanning MOET de positie van @nameend groter zijn dan de positie van @namest|
+|STOP0024|Blokkerend|Een initiële regeling MOET een attribuut @componentnaam hebben met correcte naamgeving.|
+|STOP0025|Blokkerend|Een initiële regeling MOET een attribuut @wordt hebben met de AKN-identificatie.|
+|STOP0026|Blokkerend|Een componentnaam binnen een besluit MOET uniek zijn.|
+|STOP0027|Blokkerend|Een eId binnen een AKN-component MOET uniek zijn.|
+|STOP0028|Blokkerend|Een wId binnen een AKN-component MOET uniek zijn.|
+|STOP0029|Waarschuwing|Een tabel MOET ten minste twee kolommen hebben.|
+|STOP0032|Blokkerend|Bij horizontale overspanning MOET de positie van @nameend groter zijn dan de positie van @namest.|
 |STOP0033|Blokkerend|Bij horizontale overspanning MOET de @colname van eerste cel van de overspanning gelijk zijn aan de start (@namest) van de overspanning zijn.|
-|STOP0036|Blokkerend|De referentie van een cel MOET correct verwijzen naar een kolom|
-|STOP0037|Blokkerend|Het aantal colspec's MOET gelijk zijn aan het opgegeven aantal kolommen|
-|STOP0038|Blokkerend|Het totale aantal cellen MOET overeenkomen met het aantal mogelijke cellen|
-|STOP0039|Blokkerend|Een element WijzigInstructies MAG alleen voorkomen in een RegelingKlassiek|
+|STOP0036|Blokkerend|De referentie van een cel MOET correct verwijzen naar een kolom.|
+|STOP0037|Blokkerend|Het aantal colspec's MOET gelijk zijn aan het opgegeven aantal kolommen.|
+|STOP0038|Blokkerend|Het totale aantal cellen MOET overeenkomen met het aantal mogelijke cellen.|
+|STOP0039|Blokkerend|Een element WijzigInstructies MAG alleen voorkomen in een RegelingKlassiek.|
 |STOP0040|Blokkerend|Een element RegelingMutatie binnen een WijzigArtikel mag alleen voorkomen in een regeling volgens het klassieke model (RegelingKlassiek en BesluitKlassiek).|
-|STOP0043|Blokkerend|Een onderdeel binnen een @eId MAG NIET eindigen met een punt '.'|
-|STOP0044|Blokkerend|Een onderdeel binnen een @wId MAG NIET eindigen met een '.'|
+|STOP0043|Blokkerend|Een onderdeel binnen een @eId MAG NIET eindigen met een punt '.'.|
+|STOP0044|Blokkerend|Een onderdeel binnen een @wId MAG NIET eindigen met een '.'.|
 |STOP0045|Waarschuwing|Een (inline) Illustratie MAG GEEN attribuut @schaal hebben.|
 |STOP0046|Waarschuwing|Een (inline) Illustratie MAG GEEN attribuut @kleur hebben.|
 |STOP0047|Blokkerend|Een element Wat MAG GEEN VerwijderdeTekst of NieuweTekst bevatten.|
 |STOP0048|Blokkerend|De wijzigacties nieuweContainer" en "verwijderContainer" MOGEN binnen een mutatieeenheid ALLEEN op de container Groep worden toegepast. Toepassing op andere containers (zoals Lijst; table of Citaat) kan potentieel leiden tot invalide XML of impliciet informatieverlies."|
 |STOP0050|Blokkerend|Een externe referentie MOET de juiste notatie gebruiken|
-|STOP0051|Blokkerend|Een element OpmerkingVersie MAG alleen in een RegelingKlassiek of een Rectificatie daarvan worden gebruikt|
+|STOP0051|Blokkerend|Een element OpmerkingVersie MAG alleen in een RegelingKlassiek of een Rectificatie daarvan worden gebruikt.|
 |STOP0053|Blokkerend|De scope van een interne verwijzing moet overeenkomen met de naam van het doelelement.|
 |STOP0055|Blokkerend|Het element Gereserveerd dat geen onderdeel is van een RegelingMutatie mag niet worden gevolgd door inhoud of structuur op hetzelfde niveau|
-|STOP0058|Blokkerend|Een structuur-element MOET altijd ten minste één element na de Kop bevatten|
-|STOP0060|Blokkerend|Een Divisietekst MOET altijd één element anders dan een Kop bevatten|
-|STOP0061|Blokkerend|Een Kennisgeving MAG NIET onderverdeeld zijn in Divisies; maar mag alleen gestructureerd worden met DivisieTeksten|
+|STOP0058|Blokkerend|Een structuur-element MOET altijd ten minste één element na de Kop bevatten.|
+|STOP0060|Blokkerend|Een Divisietekst MOET altijd één element anders dan een Kop bevatten.|
+|STOP0061|Blokkerend|Een Kennisgeving MAG NIET onderverdeeld zijn in Divisies; maar mag alleen gestructureerd worden met DivisieTeksten.|
 |STOP0062|Blokkerend|Indien een structuur-element vervallen is dan moeten ook alle onderliggende delen (structuur en tekst) vervallen zijn|
 |STOP0063|Blokkerend|tekst:Inhoud mag uitsluitend een @wijzigactie hebben gecombineerd met één van de kindelementen:tekst:Vervallen tekst:Gereserveerdtekst:Lid|
 |STOP0064|Blokkerend|Als het element Contact een attribuut @adres heeft; moet de inhoud van het attribuut een adres zijn dat is geformatteerd volgens de specificaties van de waarde van attribuut @soort.|
-|STOP0065|Blokkerend|Een wijzigactie voor Sluiting mag uitsluitend in een Vervang binnen BesluitMutatie worden gebruikt|
+|STOP0065|Blokkerend|Een wijzigactie voor Sluiting mag uitsluitend in een Vervang binnen BesluitMutatie worden gebruikt.|
 |STOP0066|Blokkerend|Voor een mutatie MOET de waarde van de attributen @was en @wordt beginnen met dezelde akn identificatie van het work.|
-|STOP0067|Blokkerend|Een id voor een (voet-)noot binnen een AKN-component MOET uniek zijn|
+|STOP0067|Blokkerend|Een id voor een (voet-)noot binnen een AKN-component MOET uniek zijn.|
 |STOP0068|Blokkerend|Een id voor een (voet-)noot MOET binnen een AKN-component uniek zijn.|
 |STOP0070|Blokkerend|Een Artikel MAG na een KOP slecht één ander type element (Vervallen; Gereserveerd; Inhoud of Lid) bevatten; combinaties zijn niet toegestaan.|
-|STOP0073|Blokkerend|Een WijzigArtikel in een BesluitCompact MAG GEEN Wijziglid bevatten|
+|STOP0073|Blokkerend|Een WijzigArtikel in een BesluitCompact MAG GEEN Wijziglid bevatten.|
 |STOP0074|Blokkerend|Het attribuut @wordt MOET uniek zijn binnen een besluit.|
 |STOP0075|Blokkerend|Het attribuut schemaversie op element tekst:Motivering MAG ALLEEN gebruikt worden in een uitwisselpakket.|
 |STOP0077|Blokkerend|De identificatie van het attribuut wat moet gelijk zijn aan de wId van het element dat vervangen wordt (het element direct binnen de Vervang).|
