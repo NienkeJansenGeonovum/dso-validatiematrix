@@ -121,7 +121,7 @@ var respecConfig =
   //-- Optionele parameters:
   //emailComments: "mim@geonovum.nl",         // reactie mailadres, alleen bij CV!
   subtitle: "Validatie- en conformiteitsregels voor registratie en publicatie van omgevingsdocumenten DSO-LV",                         // Subtitel van het document
-  //maxTocLevel: 3,                           // Aantal niveau's ToC, default is 0
+  maxTocLevel: 1,                           // Aantal niveau's ToC, default is 0
   //-- LOGO: Hier kan je een ander logo opgeven indien nodig
   logos: [{
     src: "https://tools.geostandaarden.nl/respec/style/logos/OmgevingswetLogo.svg",
