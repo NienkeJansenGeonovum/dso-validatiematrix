@@ -37,5 +37,7 @@ for row in sheet.iter_rows():
 
     id = str(row[1].value) 
     ernst = str(row[4].value)
+    if ernst != 'Blokkerend' and ernst != 'Waarschuwing':
+        print("ERROR: ernst moet 'Blokkerend' pf 'Waarschuwing' zijn voor: " + id, file=sys.stderr)
     regel = row[2].value.replace('\n','') 
     print('|' + id + '|' + ernst + '|' + regel + '|')

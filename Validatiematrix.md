@@ -437,7 +437,7 @@ De validatiematrix bevat de volgende validatieregels:
 |OZON1038|Blokkerend|Een ontwerpregeling kan niet geladen worden als er al een andere ontwerpregeling bestaat met hetzelfde expressionId of dezelfde ontwerpbesluitIdentificatie.|
 |OZON1040|Blokkerend|Een actualisatie van procedureverloop moet verwijzen naar een ontwerpregeling die bekend is in Ozon.|
 |OZON1041|Blokkerend|Een ontwerpregeling moet een regelingsgebied hebben of gekoppeld kunnen worden aan een vastgesteld document. |
-|OZON1042|None|Een intrekking van een Regeling moet ook bijbehorend regelingsgebied, regelteksten, divisies/divisieteksten, en ponsen beëindigen.|
+|OZON1042|Blokkerend|Een intrekking van een Regeling moet ook bijbehorend regelingsgebied, regelteksten, divisies/divisieteksten, en ponsen beëindigen.|
 |OZON2000|Blokkerend|het wId van de Regeltekst in OW moet verwijzen naar een bestaande wId van een Artikel of Lid in OP|
 |OZON2040|Blokkerend|(TPOD2040) het id van Divisie of Divisietekst in OW moet verwijzen naar een bestaande id van een Divisie of Divisietekst in OP|
 |OZON2060|Blokkerend|(TPOD2060) Een OW-annotatie mag alleen worden toegevoegd op het niveau van een Artikel indien het Artikel geen leden heeft|
@@ -451,11 +451,11 @@ De validatiematrix bevat de volgende validatieregels:
 |OZON4003|Blokkerend|Als een OwObject gewijzigd wordt, moet de inhoud van dit object veranderen ten opzichte van wat bij Ozon bekend is.|
 |OZON4004|Blokkerend|Als de Geometrie van een Locatie gewijzigd wordt, dan dient de Locatie opnieuw aangeboden te worden.|
 |OZON4005|Blokkerend|Als een OwObject gewijzigd wordt, moet het type van dit object hetzelfde zijn als dat van de vorige versie.|
-|OZON4006|None|Een levering mag niet meerdere regelingen bevatten met het zelfde regelingId en doel.                                     |
-|OZON4007|None|Bij een levering met meerdere regelingen, mag ieder owBestand maar in één regeling gebruikt worden.                                                                                                          |
-|OZON4008|None|Bij een levering met meerdere regelingen, mag ieder owObject maar in één regeling gebruikt worden.                                                |
-|OZON4009|None|Bij een levering met meerdere regelingen, mag iedere geo maar in één regeling gebruikt worden.                  |
-|OZON4010|None|Intrekken-vervangen (scenario 0) mag niet worden gebruikt in combinatie met meerdere regelingen.|
+|OZON4006|Blokkerend|Een levering mag niet meerdere regelingen bevatten met het zelfde regelingId en doel.                                     |
+|OZON4007|Blokkerend|Bij een levering met meerdere regelingen, mag ieder owBestand maar in één regeling gebruikt worden.                                                                                                          |
+|OZON4008|Blokkerend|Bij een levering met meerdere regelingen, mag ieder owObject maar in één regeling gebruikt worden.                                                |
+|OZON4009|Blokkerend|Bij een levering met meerdere regelingen, mag iedere geo maar in één regeling gebruikt worden.                  |
+|OZON4010|Blokkerend|Intrekken-vervangen (scenario 0) mag niet worden gebruikt in combinatie met meerdere regelingen.|
 |RTRG0016|Blokkerend|Als een activiteit van een gemeente verwijst naar een bovenliggende activiteit niet van een gemeente, dan moet deze verwijzen naar de activiteit: 'activiteit in omgevingsplan'|
 |RTRG0017|Blokkerend|Als een activiteit van een provincie verwijst naar een bovenliggende activiteit niet van een provincie, dan moet deze verwijzen naar de activiteit: 'activiteit in omgevingsverordening'|
 |RTRG0018|Blokkerend|Als een activiteit van een waterschap verwijst naar een bovenliggende activiteit niet van een waterschap, dan moet deze verwijzen naar de activiteit: 'activiteit in waterschapsverordening'|
