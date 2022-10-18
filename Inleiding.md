@@ -17,3 +17,5 @@ regels nodig zijn voor een correcte werking van de keten is het niet altijd zo
 dat een document dat niet aan alle regels voldoet wordt wordt geweigerd door de
 keten Welke regels daadwerkelijk zijn geïmplementeerd is te vinden in de
 release notes van de verschillende ketenonderdelen.
+
+De rest van dit document is als volgt gestructureerd. In het hoofdstuk [Uitgangspunten](#uitgangspunten) zijn de uitgangspunten voor het samenstellen van de matrix beschreven. Het hoofdstuk [Wijzigingsprotocol](#wijzigingsprotocol) beschrijft het wijzigingsprotocol behorend bij de validatieregels. De daadwerkelijke validatieregels zijn te vinden in [Validatiematrix](#de-validatiematrix). De versiehistorie van dit document is te vinden in [Versiehistorie](#versiehistorie).

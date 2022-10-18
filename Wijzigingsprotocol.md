@@ -1,0 +1,14 @@
+# Wijzigingsprotocol
+
+De positie van de validatiematrix in het stelsel is lastig: enderzijds zijn de regels die in de matrix staan zijn altijd afgeleid van regels en afspraken die op andere plekken gedocumenteerd zijn, hierdoor zijn wijgingen in de matrix slechts een afgeleide van wijzigingen elders waardoor de matrix een afgeleid (en dus niet normatief) document is. Anderzijds worden regels vaak pas herkend en afgedwongen nadat ze expliciet zijn opgenomen in de matrix waardoor de matrix toch veel impact heeft op de keten.
+
+Om de positie van de validatiematrix beter te duiden wordt het wijzingsprotocol behorend bij dit document expliciet beschreven:
+ - De versienummering van de validatiematrix maakt gebruik van [Semantic Versioning](https://semver.org/). Hierin hebben releases een MAJOR.MINOR.PATCH (ook wel X.Y.Z genoemd) versienummer.  De regels voor wat een X, Y of Z wijziging is zijn hieronder gespecificeerd.
+ - Een wijziging waardoor een document dat eerst valide was nu wordt geblokkeerd is een Major wijziging.
+ - Een wijziging die resulteert in meer meldingen van het type 'Waarschuwing' is een Minor wijziging.
+ - Een wijziging die geen impact hebben op het aantal meldingen krijgen het label 'Patch'. Dit zijn veelal verbeteringen in formulering van de regels. 
+ - Wanneer voor een wijziging van de validatiematrix meerdere van bovenstaande regels van toepassing zijn geldt voor het toekennen van het versienummer van de nieuwe validatiematrix de meest majeure wijziging.
+ - Een wijziging van de standaard impliceert vaak een wijziging in de validatiematrix. In deze gevallen wordt het CAB proces voor het wijzigen van de standaard gevolgd.
+ - Een validatieregel die uit de bestaande standaard is af te leiden maar voor het eerst expliciet wordt opgenomen in de validatiematrix worden 'ter informatie' aangeboden aan het CAB. Hierbij maakt de grootte van de wijziging niet uit. Redenering hierbij is dat deze wijzigingen zorgen voor een betere afstemming van de matrix op de bestaande standaarden. Als er discussie is over het opnemen van de validatieregel moet de discussie ook meteen gaan over het opnemen van de regel in de standaard en is er dus sprake van een standaardwijziging met bijbehorend wijzigingsprotocol.   
+ - Wijzigingsverzoeken voor de validatiematrix kunnen worden ingediend via de WELT lijst. Meldingen kunnen worden gedaan en bekeken via: [https://www.geonovum.nl/geo-standaarden/omgevingswet/meldingen](https://www.geonovum.nl/geo-standaarden/omgevingswet/meldingen). Wanneer voor een wijziging ook een CAB proces (anders dan kennisgeving) nodig is, dan is de indiener van de wijziging verantwoordelijk voor het initiëren van dit proces.
+ - In het hoofstuk [Versiebeheer](#versiebeheer) staan de wijzigingen van de validatiematrix beschreven.

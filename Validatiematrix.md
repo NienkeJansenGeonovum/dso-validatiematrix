@@ -1,7 +1,19 @@
+
 # De validatiematrix
 
-| id | ernst | omschrijving|
-|:---|:------|:------------|
+Betekenis van de kolommen:
+
+| kolom         | omschrijving |
+|---------------|--------------|
+| identificatie | Unieke identificatie van de validatieregel die gebruikt kan worden in communicatie over de regel. |
+| ernst         | 'Blokkerend' of 'Waarschuwing'. Blokkerende regels leiden tot afkeuring van het document in de keten. Een waarschuwing resulteert niet tot afkeuring van het document maar levert een melding bij de indiener van het document. |
+| omschrijving  | Eenduidige omschrijving van de validatieregel. |
+
+
+De validatiematrix bevat de volgende validatieregels:
+
+| identificatie | ernst | omschrijving|
+|:--------------|:------|:------------|
 |BHKV1004|Blokkerend|Voor een ontwerpbesluit MAG GEEN tijdstempel worden meegeleverd|
 |BHKV1005|Blokkerend|Een Besluit (tekst:BesluitCompact of tekst:BesluitKlassiek) MOET een identificatie hebben die aangeeft dat het een Besluit betreft (data:soortWork = /join/id/stop/work_003)|
 |BHKV1009|Blokkerend|De eId van een BeoogdeRegeling MOET voorkomen in het Besluit (bij BesluitCompact in het besluit-deel; dus NIET in de WijzigBijlage; bij BesluitKlassiek in RegelingKlassiek ) danwel in de Rectificatie(in BesluitMutatie)|
